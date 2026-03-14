@@ -1,0 +1,15 @@
+class Palindraom():
+    def num (self, n):
+        orginal = n
+        temp = 0
+        while n > 0:
+            digit = n % 10
+            temp = temp * 10 + digit
+            n = n // 10
+        
+        if temp == orginal:
+            print(f"{temp} and {orginal} : is palindrom")
+        else:
+            print(f"{temp} and {orginal} : is not palindrom")
+obj = Palindraom()
+obj.num(121)
