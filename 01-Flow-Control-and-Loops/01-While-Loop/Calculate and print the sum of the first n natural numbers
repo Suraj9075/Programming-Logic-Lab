@@ -1,0 +1,10 @@
+class Sum:
+    def num(self, n):
+        temp=0
+        natural = 0
+        while temp <= n:
+            natural = natural + temp
+            temp += 1
+        print(f"Sum of no between 1 to {n} is : {natural}")
+obj = Sum()
+obj.num(4)
