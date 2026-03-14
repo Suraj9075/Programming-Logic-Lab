@@ -1,0 +1,10 @@
+class Sum():
+    def num(self, n):
+        temp= 0
+        while n > 0:
+            digit = n % 10
+            temp = temp + digit
+            n = n // 10
+        print(temp) 
+obj=Sum()
+obj.num(121)
