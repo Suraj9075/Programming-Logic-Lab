@@ -1,0 +1,9 @@
+class Divisival():
+    def number(self, a, b):
+            current = a 
+            while current <= b:
+                if current % 7== 0:
+                    print(f"{current} is divisible by 7")
+                current +=1
+obj = Divisival()
+obj.number(1, 100)
