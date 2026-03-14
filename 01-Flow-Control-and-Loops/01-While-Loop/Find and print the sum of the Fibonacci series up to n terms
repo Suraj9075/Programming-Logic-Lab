@@ -1,0 +1,26 @@
+class Fibonacci():
+    def number(self, n):
+
+        a=0
+        b=1
+        count = 0
+        total_sum=0
+
+        while count < n:
+           print(a)
+           total_sum = total_sum + a
+        
+
+           next_num= a+b
+
+           a = b
+           b = next_num
+           
+           
+           count +=1
+           
+        print(f"sum of total fibonacci:{total_sum}")
+
+
+obj=Fibonacci()
+obj.number(10)
