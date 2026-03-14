@@ -1,0 +1,9 @@
+class Odd:
+    def num(self ,n):
+        temp=1
+        while temp <= n:
+            if temp % 2 ==1:
+                print(temp)
+            temp += 1
+obj = Odd()
+obj.num(100)
