@@ -1,0 +1,9 @@
+class Even:
+    def num(self ,n):
+        temp=1
+        while temp <= n:
+            if temp % 2== 0:
+                print(temp)
+            temp += 1
+obj =Even()
+obj.num(100)
