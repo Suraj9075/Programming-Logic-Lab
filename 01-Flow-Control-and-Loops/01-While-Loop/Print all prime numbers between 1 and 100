@@ -1,0 +1,18 @@
+class Prime():
+    def num(self, n):
+            
+            temp = 1
+            factors = 0
+            
+            while temp <= n:  
+                if n % temp == 0:
+                    factors += 1
+                temp += 1
+
+            if factors == 2:
+                print(f"{n} is Prime number")
+            else:
+                print(f"{n} is not prime number")
+
+obj = Prime()
+obj.num(3)
