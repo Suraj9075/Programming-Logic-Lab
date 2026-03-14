@@ -1,0 +1,10 @@
+class Product:
+    def num(self, n):
+        temp=1
+        while n > 0:
+            digit = n % 10 
+            temp = temp * digit
+            n = n // 10
+        print(temp)
+obj = Product()
+obj.num(156)
