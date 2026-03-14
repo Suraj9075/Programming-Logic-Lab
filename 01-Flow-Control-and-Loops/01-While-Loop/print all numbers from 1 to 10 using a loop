@@ -1,0 +1,8 @@
+class Nums:
+    def num(self, n):
+        temp=1
+        while temp <= n:
+            print(temp)
+            temp+=1
+obj = Nums()
+obj.num(10)
