@@ -1,0 +1,11 @@
+class Sum:
+    def even(self,n):
+        temp = 1
+        no = 0
+        while temp <= n:
+            if temp % 2 ==0:
+                no = no + temp
+            temp+=1
+        print(f"even no between 1 to {n} is : {no}")
+obj=Sum()
+obj.even(10)
