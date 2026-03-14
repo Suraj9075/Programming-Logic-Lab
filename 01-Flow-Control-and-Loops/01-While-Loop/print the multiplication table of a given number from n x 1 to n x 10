@@ -1,0 +1,8 @@
+class Multiplication:
+    def num(self ,n):
+        temp=1
+        while temp <=10:
+            print(f"{n} X {temp}={temp*n}")
+            temp+=1
+obj=Multiplication()
+obj.num(5)
