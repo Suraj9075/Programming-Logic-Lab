@@ -1,0 +1,12 @@
+class Square():
+    def number(self, n):
+
+        temp =1
+       
+        while temp <= n:
+            Square = temp*temp
+            
+            print(Square)
+            temp += 1
+obj=Square()
+obj.number(10)
