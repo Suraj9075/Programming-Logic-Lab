@@ -1,0 +1,19 @@
+class Fibonacci():
+    def number(self, n):
+
+        a=0
+        b=1
+        count = 0
+        while count < n:
+           print(a)
+
+           next_num= a+b
+
+           a = b
+           b = next_num
+           
+           count +=1
+
+
+obj=Fibonacci()
+obj.number(10)
