@@ -1,0 +1,22 @@
+class Perfect():
+    def num(self, n):
+        temp = 1
+        number = 0
+        original = n
+
+        while n > temp:
+            
+            if n % temp==0:
+                number = number + temp
+            else:
+                pass
+
+            temp+=1
+            
+        if original == number:
+            print(f"{n} is perfect number")
+        else:
+            print(f"{n} is not perfect number")
+            
+obj =Perfect()
+obj.num(28)
