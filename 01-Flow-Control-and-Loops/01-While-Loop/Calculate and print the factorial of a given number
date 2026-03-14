@@ -1,0 +1,10 @@
+class Fact:
+    def num(self, n):
+        temp = 1
+        sum = 1
+        while temp <= n:
+            sum = sum * temp
+            temp +=1
+        print(sum)
+obj = Fact()
+obj.num(5)
