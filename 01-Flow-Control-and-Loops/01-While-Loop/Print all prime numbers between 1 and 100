@@ -1,18 +1,20 @@
 class Prime():
-    def num(self, n):
-            
-            temp = 1
-            factors = 0
-            
-            while temp <= n:  
-                if n % temp == 0:
-                    factors += 1
-                temp += 1
+    def series(self,s):
+        num = 1
+        while num <=s:
+            count = 0
+            i = 1
 
-            if factors == 2:
-                print(f"{n} is Prime number")
-            else:
-                print(f"{n} is not prime number")
+            while i <= num:
+                if num % i==0:
+                    count=count +1
+                i = i+1
 
+        
+            if count == 2:
+                print(num)
+        
+            num = num + 1
+    
 obj = Prime()
-obj.num(3)
+obj.series(100)
