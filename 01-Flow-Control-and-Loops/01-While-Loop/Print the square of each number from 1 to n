@@ -1,0 +1,11 @@
+temp = 1
+class Square():
+    def number(self, n):
+        global temp
+        while n >= temp:
+            squ = temp * temp
+            print(f"Square of {temp} is:{squ}")
+            temp+=1
+
+obj=Square()
+obj.number(10)
