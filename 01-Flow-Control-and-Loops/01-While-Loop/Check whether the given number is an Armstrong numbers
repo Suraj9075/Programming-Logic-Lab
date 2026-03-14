@@ -1,0 +1,20 @@
+class Armstrong():
+    def num(self , n):
+        orginal = n
+        temp = 0
+        cube = 0
+
+        power = len(str(n))
+
+        while n > 0:
+            digit = n % 10
+            cube = digit ** power
+            temp = temp + cube
+            n = n // 10
+
+        if orginal == temp:
+            print(f"{orginal} is armstrong number")
+        else: 
+            print(f"{orginal} is not aemstrong number") 
+obj = Armstrong()
+obj.num(54748)
