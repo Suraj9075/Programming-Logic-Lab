@@ -1,0 +1,10 @@
+class Cube():
+    def number(self, n):
+        global temp
+        while n >= temp:
+            cu = temp * temp * temp
+            print(f"Cube of {temp} is {cu}")
+            temp+=1
+
+obj = Cube()
+obj.number(10)
